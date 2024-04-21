@@ -1,0 +1,127 @@
+body { font-family: 'Times New Roman', Times, serif;
+    background-color: #f1f1f1; color: black; }
+h1 {  color: #f1f1f1;font-size: 25px; font-family: 'Ranchers', cursive; position: relative; right: -16px;}
+h2 { font-size: 20px; text-align: left; position: relative; right: -10px; font-family: 'Ranchers', cursive; color: #f1f1f1;}
+div {text-align: center; margin: 2em; padding: .6em; }
+.content {width: 1020px; margin: auto; box-sizing: border-box; border-color: black; background: #333;  text-align: justify; }
+.flexible-container {
+    display: flex
+  }
+  
+aside {
+    
+    flex: 3;
+    background-color: #333;
+}
+main {
+    flex: 7;
+    background-color: #333;
+}
+  
+aside {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    border-right: 3px solid #f1f1f1;
+}
+    
+aside div {
+    margin-bottom: 20px;
+}
+  
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+section {
+    width: 45%;
+    margin: 5px;
+    position: relative;
+    height: 215px;
+}
+  
+section img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+}
+  
+section p {
+    background: rgb(211, 161, 161);
+    right: 10px;
+    bottom: -6px;
+    color: #f1f1f1;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    opacity: 100;
+}
+  
+main {
+      display: flex;
+      /* flex-flow: row wrap;
+      justify-content: space-around; */
+      flex-wrap: wrap;
+      justify-content: space-around
+}
+    
+section {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    position: relative;
+}
+    
+section img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    opacity: 100;
+    z-index: 1;
+  }
+
+section h2 {
+    color:#f1f1f1;
+    z-index: 2;
+    position: absolute;
+    left: 10px;
+  }
+
+section div {
+    color: #f1f1f1;
+    position: absolute;
+    font-size: small;
+    z-index: 4;
+
+
+  }
+  .navigation_bar {
+
+    overflow: hidden;
+    background-color: #333;
+    
+
+}
+.navigation_bar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+.navigation_bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+    
+  

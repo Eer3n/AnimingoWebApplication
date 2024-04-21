@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Signup for free!</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+        <script>
+            function updateTextInput(val) {
+            document.getElementById('textInput').value=val; 
+            }
+        </script>
+    </head>
+
+    <body>
+        
+        <div class="header">
+            <h1>Sign-up to find your one!</h1>
+
+            <hr color="black">
+        <div class="navigation_bar">
+            <a href="main.html"><span class = "rightside">Main Page</span></a> &nbsp;
+            <a href="service.html"><span class = "rightside"><b>Servie Page</b></span></a> &nbsp;
+            <a href="login.html"><span class = "rightside">Login Page</span></a> &nbsp;
+            <a href="signup.html"><span class = "rightside"><b>Sign-up Page</b></span></a>&nbsp;
+        </div>
+            <hr color="black">
+        </div>
+        <br>
+
+        
+        <div class="main">
+        <form method = "GET" action="next.php" >
+            <p>
+                <label>Your Name: <input name = "user-name" type = "text" placeholder="Enter your legal name" required/> </label>
+            </p>
+            
+            <p>
+                <label>Your email: <input name = "email" type = "email" placeholder="name@domain.com" required/> (This email address will be used as your username when you log in)</label>
+            </p>
+
+            <p>
+                <label>Phone number: <input name = "tel" type="tel" placeholder="010-XXXX-XXXX" pattern = "\d{3}-\d{4}-\d{4}" required/> </label>
+            </p>
+
+            <p>
+                <label for="userGender">Your gender:</label>
+                    <select id="UserGender">
+                        <option selected>All</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+            </p>
+            
+            
+            <p>
+                <label>Name of your pet: <input name = "petName" type = "text" placeholder="Enter your pet's name" required/> </label>
+            </p>
+            
+            <p>
+                <label for="petType">Type of your pet:</label>
+                    <select id="petType">
+                        <option selected>Dog</option>
+                        <option>Cat</option>
+                        <option>Bird</option>
+                        <option>Rodent</option>
+                        <option>Horse</option>
+                        <option>Snake</option>
+                    </select>
+            </p>
+
+            <p>
+                <label>Breed of your pet: <input name = "petBreed" type = "text" placeholder="ex) Poodle" required/> </label>
+            </p>
+
+            <p>
+                <label for="userGender">Gender of your pet:</label>
+                    <select id="userGender">
+                        <option selected>All</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+            </p>
+
+            <p>
+                <label>Age of your pet:<input type="range" value="24" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+                <output>24</output> </label>
+            </p>
+
+            <p>
+                <label>Fur-color of your pet: <input name = 'petFurcolor' type = "text" autofocus /></label>
+            </p>
+
+            <p>
+                <label>Weight of your pet (kg): <input name = 'petSize' type = 'number' min = '0' max = '50' step = '1' value =0/></label>
+            </p>
+
+
+            <p>
+                <label>Password: <input name = "password" type = "password" placeholder="Create your password" required/> </label>
+            </p>
+
+            <p>
+                <label>Confirm password: <input name = "password" type = "password" placeholder="Enter your password again" required/> </label>
+            </p>
+
+            <p>
+                <label>Biography: <input name = "biography" type = "text" placeholder="Tell us about yourself!"/> </label>
+            </p>
+
+            <p>
+                <label for="image">Upload an image of your pet:</label>
+                <input type="image" name="image" id="image" /><br />
+            </p>
+
+            <p>
+                <input type = "submit" value = "Finish" class="finishbutton"/>
+                <input type = "reset" value = "Cancel" class = "cancelbutton"/>
+            </p>
+
+        </form>
+    </div>
+    </body>
+
+</html>
+

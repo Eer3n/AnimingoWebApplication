@@ -1,0 +1,166 @@
+[
+    {
+        "petName" : "Fluffy",
+        "petType": "Dog",
+        "petBreed" : "Maltese",
+        "petGender": "Male",
+        "petAge" : 14,
+        "petSize" : "7kg",
+        "petFurcolor": "White",
+        "ownerName": "Jiho Yu",
+        "ownerGender": "Male",
+        "Biography": "Any malteses who are up to hang out with me?",
+        "Distance": 1,
+        "image" : "dog1.jpg"
+    },
+
+    {
+        "petName" : "Emma",
+        "petType": "Dog",
+        "petBreed" : "Shih tzu",
+        "petGender": "Female",
+        "petAge" : 6,
+        "petSize" : "4kg",
+        "petFurcolor": "Beige",
+        "ownerName": "Yihan Lin",
+        "ownerGender": "Male",
+        "Biography": "Single and ready to mingle :)",
+        "Distance": 4,
+        "image" : "dog2.jpg"
+    },
+
+    {
+        "petName" : "Daisy",
+        "petType": "Dog",
+        "petBreed" : "Poodle",
+        "petGender": "Female",
+        "petAge" : 18,
+        "petSize" : "8kg",
+        "petFurcolor": "White",
+        "ownerName": "Elif Eren",
+        "ownerGender": "Female",
+        "Biogrpahy": "I'm looking for friends to go on walks with. Text me if you are interested.",
+        "Distance": 0.1,
+        "image" : "dog3.jpg"
+    },
+
+    {
+        "petName" : "Mango",
+        "petType": "Dog",
+        "petBreed" : "Schnauzer",
+        "petGender": "Male",
+        "petAge" : 2,
+        "petSize" : "4kg",
+        "petFurcolor": "Black",
+        "ownerName": "Wuheng Lee",
+        "ownerGender": "Male",
+        "Biography": "Let's have play date!",
+        "Distance": 2,
+        "image" : "dog4.jpg"
+    },
+
+    {
+        "petName" : "Eddie",
+        "petType": "Dog",
+        "petBreed" : "Golden retriever",
+        "petGender": "Male",
+        "petAge" : 10,
+        "petSize" : "22kg",
+        "petFurcolor": "Gold",
+        "ownerName": "Yunhao Xu",
+        "ownerGender": "Male",
+        "Biography": "We want little golden retriever puppies!",
+        "Distance": 9.8,
+        "image" : "dog5.jpg"
+    },
+
+    {
+        "petName" : "Bagel",
+        "petType": "Dog",
+        "petBreed" : "Beagle",
+        "petGender": "Female",
+        "petAge" : 8,
+        "petSize" : "15kg",
+        "petFurcolor": "Brown",
+        "ownerName": "Brad Pitt",
+        "ownerGender": "Male",
+        "Biography": "Bagel is very picky so your dog better to put its best paw forward.",
+        "Distance": 4,
+        "image" : "dog6.jpg"
+    },
+
+    {
+        "petName" : "Nabi",
+        "petType": "Cat",
+        "petBreed" : "American Wirehair",
+        "petGender": "Male",
+        "petAge" : 7,
+        "petSize" : "4kg",
+        "petFurcolor": "Beige",
+        "ownerName": "Angelina Jolie",
+        "ownerGender": "Female",
+        "Biography": "Nabi is very friendly! Don't hesistate to text us!",
+        "Distance": 17,
+        "image" : "cat1.jpeg"
+    },
+
+    {
+        "petName" : "Pharaoh",
+        "petType": "Cat",
+        "petBreed" : "Sphynx",
+        "petGender": "Female",
+        "petAge" : 21,
+        "petSize" : "3kg",
+        "petFurcolor": "Pink",
+        "ownerName": "Tim Cooks",
+        "ownerGender": "Male",
+        "Biography": "We only want serious relationships",
+        "Distance": 6,
+        "image" : "cat2.jpeg"
+    },
+
+    {
+        "petName" : "Chanel",
+        "petType": "Cat",
+        "petBreed" : "British Shorthair",
+        "petGender": "Male",
+        "petAge" : 4,
+        "petSize" : "5kg",
+        "petFurcolor": "Grey",
+        "ownerName": "Steve Jobs",
+        "ownerGender": "Male",
+        "Biography": "Let's hang out in parks!",
+        "Distance": 2.3,
+        "image" : "cat3.jpeg"
+    },
+
+    {
+        "petName" : "Peachy",
+        "petType": "Bird",
+        "petBreed" : "Loverbird",
+        "petGender": "Female",
+        "petAge" : 3,
+        "petSize" : "0.05kg",
+        "petFurcolor": "Red",
+        "ownerName": "Wllow Smith",
+        "ownerGender": "Male",
+        "Biography": "Chat with us, we are bored haha",
+        "Distance": 3.8,
+        "image" : "bird1.jpeg"
+    },
+
+    {
+        "petName" : "Speaker",
+        "petType": "Bird",
+        "petBreed" : "Parrot",
+        "petGender": "Male",
+        "petAge" : 5,
+        "petSize" : "0.06kg",
+        "petFurcolor": "Green",
+        "ownerName": "Adele Adkins",
+        "ownerGender": "Female",
+        "Biography": "My bird will be the one for your parrot if your parrot is deaf ;)",
+        "Distance": 8,
+        "image" : "bird2.jpeg"
+    }
+]
